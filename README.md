@@ -5,8 +5,8 @@
 <h1 align="center">NS AI</h1>
 
 <p align="center">
-  <b>เทอร์มินัลหลายหน้าจอในหน้าต่างเดียว สำหรับ Windows 11</b><br>
-  ใช้ cmd, PowerShell, WSL และ Git Bash พร้อมกัน พร้อมเรียก Claude Code และ Codex ได้ในคลิกเดียว
+  <b>Multiple terminals in a single window, built for Windows 11</b><br>
+  Run cmd, PowerShell, WSL and Git Bash side by side, and launch Claude Code or Codex in one click
 </p>
 
 <p align="center">
@@ -16,93 +16,93 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/narawitsuraphan/ns-ai/main/assets/screenshot.png" alt="ภาพหน้าจอโปรแกรม NS AI" width="900">
+  <img src="https://raw.githubusercontent.com/narawitsuraphan/ns-ai/main/assets/screenshot.png" alt="NS AI application screenshot" width="900">
 </p>
 
 ---
 
-## ดาวน์โหลด
+## Download
 
-### ⬇️ [**ดาวน์โหลดตัวติดตั้ง NS AI v1.0.0**](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.0.exe)
+### [**Download NS AI v1.0.0 installer**](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.0.exe)
 
-กดลิงก์ด้านบนได้เลย ไม่ต้องสมัครสมาชิก ไม่ต้องล็อกอิน
+Click the link above to download. No account and no sign-in required.
 
-| ไฟล์ | ใช้ทำอะไร |
+| File | Purpose |
 | --- | --- |
-| [NS-AI-Setup-1.0.0.exe](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.0.exe) | ตัวติดตั้งสำหรับ Windows 11 |
-| [latest.yml](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/latest.yml) | ไฟล์แจ้งเวอร์ชันสำหรับระบบอัปเดตในโปรแกรม |
+| [NS-AI-Setup-1.0.0.exe](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.0.exe) | Installer for Windows 11 |
+| [latest.yml](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/latest.yml) | Version manifest used by the in-app updater |
 
-> ดูไฟล์ทั้งหมดได้ที่ [หน้า Releases](https://github.com/narawitsuraphan/ns-ai/releases/latest)
-
----
-
-## วิธีติดตั้ง
-
-1. กดลิงก์ดาวน์โหลดด้านบน แล้วรอไฟล์ `.exe` โหลดเสร็จ
-2. ดับเบิลคลิกไฟล์ที่ดาวน์โหลด
-3. ถ้า Windows ขึ้นหน้าจอ **"Windows protected your PC"** ให้กด **More info** แล้วกด **Run anyway**
-   (ตัวติดตั้งยังไม่ได้ลงนามดิจิทัล จึงมีคำเตือนนี้ ถือเป็นเรื่องปกติ)
-4. ติดตั้งเสร็จ เปิดโปรแกรมได้จากไอคอนบน **Desktop** หรือ **Start Menu**
+> Browse every file on the [Releases page](https://github.com/narawitsuraphan/ns-ai/releases/latest).
 
 ---
 
-## ฟีเจอร์
+## Installation
 
-- 🖥️ **เทอร์มินัลหลายหน้าจอ** — เปิดพร้อมกันได้หลายตัวในหน้าต่างเดียว สลับรูปแบบกริดได้ตามใจ
-- ⌨️ **หลายเชลล์ในที่เดียว** — PowerShell, Command Prompt, WSL และ Git Bash ใช้พร้อมกันได้หมด
-- 📁 **ระบบโปรเจกต์** — เลือกโฟลเดอร์โปรเจกต์ได้ เปิดได้ทั้งโปรเจกต์เดียวหรือหลายโปรเจกต์ ทุกเซสชันเริ่มที่โฟลเดอร์ที่ถูกต้อง
-- 🤖 **เรียก Claude Code และ Codex** — กดปุ่มเดียวเปิดได้เลย พร้อมไอคอนประจำตัว
-- 🔍 **ตรวจจับ Agent อัตโนมัติ** — พิมพ์เรียก agent เองในเทอร์มินัล โปรแกรมจะรู้และเปลี่ยนชื่อกับไอคอนให้เอง
-- 📋 **คัดลอก/วางข้อความ** — วางข้อความหลายบรรทัดได้ คลิกขวาเปิดเมนูได้ครบ
-- 🌙 **ธีมมืด** — เป็นค่าเริ่มต้น ถนอมสายตา มีโหมดสว่างให้สลับ
-- 🔄 **อัปเดตในโปรแกรม** — ตรวจ หา ดาวน์โหลด และติดตั้งเวอร์ชันใหม่ได้จากในโปรแกรม โดยข้อมูลเดิมอยู่ครบ
-- 📊 **หน้าจอครบ 5 หน้า** — Terminals, Projects, Dashboard, Settings และ Developer
-- 🔌 **ออฟไลน์ได้** — ไอคอนและไลบรารีทั้งหมดมาพร้อมโปรแกรม ไม่ต้องต่อเน็ตก็ใช้ได้
+1. Click the download link above and wait for the `.exe` file to finish downloading.
+2. Double-click the downloaded file.
+3. If Windows shows the **"Windows protected your PC"** screen, click **More info** and then **Run anyway**.
+   (The installer is not digitally signed yet, so this warning is expected.)
+4. When installation finishes, launch the app from the **Desktop** or **Start Menu** shortcut.
 
 ---
 
-## ข้อกำหนดของเครื่อง
+## Features
 
-- Windows 11 (Windows 10 21H2 ขึ้นไปก็ใช้ได้)
-- Claude Code และ Codex: ถ้าติดตั้งไว้แล้วจะกดใช้ได้ทันที ถ้าไม่มีจะขึ้นว่า `not found`
-- WSL และ Git Bash ไม่บังคับติดตั้ง
-
----
-
-## คำถามที่พบบ่อย
-
-**ข้อมูลของฉันจะหายไหมเมื่ออัปเดต?**
-
-ไม่หาย โปรเจกต์ การตั้งค่า ธีม และการจัดวาง ถูกเก็บไว้ในโฟลเดอร์ผู้ใช้ของ Windows
-(`%APPDATA%\NS AI\`) ซึ่งแยกจากโฟลเดอร์ที่ติดตั้งโปรแกรม จึงอยู่ครบทุกครั้งที่อัปเดต
-
-**ทำไม Windows ขึ้นคำเตือนตอนติดตั้ง?**
-
-เพราะตัวติดตั้งยังไม่ได้ซื้อใบรับรองดิจิทัลมาลงนาม ไม่ได้แปลว่าโปรแกรมมีอันตราย
-กด **More info** แล้ว **Run anyway** ได้เลย
-
-**ใช้ Codex แล้วขึ้นว่า "start the Windows daemon from a non-elevated terminal"**
-
-โปรแกรมจัดการให้แล้ว ไปที่ **Settings > Agents > Fix Codex for plain terminals** แล้วกด **Fix now**
-พิมพ์ `codex` ใช้ได้ตามปกติทุกที่ รวมถึง Command Prompt ที่เปิดเอง
-
-**หน้าจอเทอร์มินัลเป็นขาวดำ ไม่มีสี**
-
-แก้แล้วในโปรแกรม โปรแกรมจะตั้งค่าสีให้เทอร์มินัลของตัวเองโดยเฉพาะ ไม่กระทบส่วนอื่นของเครื่อง
+- **Multiple terminals** - open several sessions at once in a single window and switch between grid layouts.
+- **Several shells at once** - use PowerShell, Command Prompt, WSL and Git Bash together.
+- **Project folders** - pick project folders, open one project or many, and every session starts in the correct directory.
+- **Launch Claude Code and Codex** - start them with a single click, each with its own icon.
+- **Automatic agent detection** - start an agent by hand in the terminal and the app recognises it, updating the panel name and icon.
+- **Copy and paste** - paste multi-line text, with a full right-click menu.
+- **Dark theme** - enabled by default and easy on the eyes, with a light theme available.
+- **In-app updates** - check for, download and install new versions from inside the app without losing your data.
+- **Five pages** - Terminals, Projects, Dashboard, Settings and Developer.
+- **Works offline** - all icons and libraries ship with the app, so no internet connection is needed.
 
 ---
 
-## ความเป็นส่วนตัว
+## Requirements
 
-โปรแกรมทำงานในเครื่องคุณทั้งหมด ไม่ส่งข้อมูลออกไปที่ใด
-ที่เก็บนี้ใช้ **เผยแพร่ตัวโปรแกรมเท่านั้น** ไม่มีซอร์สโค้ดอยู่ในนี้
+- Windows 11 (Windows 10 21H2 or newer also works).
+- Claude Code and Codex: if they are already installed the launch buttons work right away, otherwise the app shows `not found`.
+- WSL and Git Bash are optional.
 
 ---
 
-## ผู้พัฒนา
+## Frequently asked questions
+
+**Will I lose my data when I update?**
+
+No. Your projects, preferences, theme and layouts are stored in your Windows user profile
+(`%APPDATA%\NS AI\`), separate from the folder the application is installed in, so everything is kept across updates.
+
+**Why does Windows warn me during installation?**
+
+Because the installer does not have a paid digital certificate yet. It does not mean the application is harmful.
+Click **More info** and then **Run anyway**.
+
+**Codex shows "start the Windows daemon from a non-elevated terminal"**
+
+The app already handles this. Open **Settings > Agents > Fix Codex for plain terminals** and click **Fix now**.
+The `codex` command then works normally everywhere, including a Command Prompt you open yourself.
+
+**The terminal is black and white with no colour**
+
+This is already fixed in the app. It configures colour for its own terminals only and leaves the rest of the system untouched.
+
+---
+
+## Privacy
+
+The application runs entirely on your machine and sends no data anywhere.
+This repository is used **only to distribute the application**. It contains no source code.
+
+---
+
+## Author
 
 **Narawit Suraphan**
 
 - GitHub: [@narawitsuraphan](https://github.com/narawitsuraphan)
 
-<p align="center"><sub>สร้างด้วย ❤️ สำหรับนักพัฒนาไทย</sub></p>
+<p align="center"><sub>Built for developers on Windows</sub></p>
