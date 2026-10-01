@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/narawitsuraphan/ns-ai/releases/latest"><img src="https://img.shields.io/badge/download-v1.0.0-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download"></a>
+  <a href="https://github.com/narawitsuraphan/ns-ai/releases/latest"><img src="https://img.shields.io/badge/download-v1.0.1-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download"></a>
   <img src="https://img.shields.io/badge/platform-Windows%2011-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows 11">
   <img src="https://img.shields.io/badge/license-Free-blue?style=for-the-badge" alt="Free">
 </p>
@@ -23,13 +23,13 @@
 
 ## Download
 
-### [**Download NS AI v1.0.0 installer**](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.0.exe)
+### [**Download NS AI v1.0.1 installer**](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.1.exe)
 
 Click the link above to download. No account and no sign-in required.
 
 | File | Purpose |
 | --- | --- |
-| [NS-AI-Setup-1.0.0.exe](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.0.exe) | Installer for Windows 11 |
+| [NS-AI-Setup-1.0.1.exe](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.1.exe) | Installer for Windows 11 |
 | [latest.yml](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/latest.yml) | Version manifest used by the in-app updater |
 
 > Browse every file on the [Releases page](https://github.com/narawitsuraphan/ns-ai/releases/latest).
