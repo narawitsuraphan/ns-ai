@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/narawitsuraphan/ns-ai/main/assets/icon.png" alt="NS AI" width="110">
+  <img src="https://raw.githubusercontent.com/narawitsuraphan/ns-ai/main/assets/icon.png" alt="NS Deck" width="110">
 </p>
 
-<h1 align="center">NS AI</h1>
+<h1 align="center">NS Deck</h1>
 
 <p align="center">
   <b>Multiple terminals in a single window, built for Windows 11</b><br>
@@ -10,26 +10,26 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/narawitsuraphan/ns-ai/releases/latest"><img src="https://img.shields.io/badge/download-v1.0.1-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download"></a>
+  <a href="https://github.com/narawitsuraphan/ns-ai/releases/latest"><img src="https://img.shields.io/badge/download-v1.0.2-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download"></a>
   <img src="https://img.shields.io/badge/platform-Windows%2011-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows 11">
   <img src="https://img.shields.io/badge/license-Free-blue?style=for-the-badge" alt="Free">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/narawitsuraphan/ns-ai/main/assets/screenshot.png" alt="NS AI application screenshot" width="900">
+  <img src="https://raw.githubusercontent.com/narawitsuraphan/ns-ai/main/assets/screenshot.png" alt="NS Deck application screenshot" width="900">
 </p>
 
 ---
 
 ## Download
 
-### [**Download NS AI v1.0.1 installer**](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.1.exe)
+### [**Download NS Deck v1.0.2 installer**](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-Deck-Setup-1.0.2.exe)
 
 Click the link above to download. No account and no sign-in required.
 
 | File | Purpose |
 | --- | --- |
-| [NS-AI-Setup-1.0.1.exe](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-AI-Setup-1.0.1.exe) | Installer for Windows 11 |
+| [NS-Deck-Setup-1.0.2.exe](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-Deck-Setup-1.0.2.exe) | Installer for Windows 11 |
 | [latest.yml](https://github.com/narawitsuraphan/ns-ai/releases/latest/download/latest.yml) | Version manifest used by the in-app updater |
 
 > Browse every file on the [Releases page](https://github.com/narawitsuraphan/ns-ai/releases/latest).
@@ -74,7 +74,8 @@ Click the link above to download. No account and no sign-in required.
 **Will I lose my data when I update?**
 
 No. Your projects, preferences, theme and layouts are stored in your Windows user profile
-(`%APPDATA%\NS AI\`), separate from the folder the application is installed in, so everything is kept across updates.
+(`%APPDATA%\NS Deck\`), separate from the folder the application is installed in, so everything is kept across updates.
+If you installed an earlier version under its previous name, your settings are carried over automatically the first time you open the new version.
 
 **Why does Windows warn me during installation?**
 
