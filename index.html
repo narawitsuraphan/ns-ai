@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NS Deck - Multiple terminals in one window for Windows 11</title>
-<meta name="description" content="NS Deck puts several live terminals in a single Windows 11 window, keeps them organised by project folder, and launches Claude Code or Codex in one click. Free download.">
+<title>NS Deck - Multiple terminals in one window for Windows and Linux</title>
+<meta name="description" content="NS Deck puts several live terminals in one window on Windows and Linux, keeps them organised by project folder, and launches Claude Code or Codex in one click. Free download.">
 <meta name="theme-color" content="#0b0f16">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="NS Deck - Multiple terminals in one window">
-<meta property="og:description" content="Run PowerShell, CMD, WSL and Git Bash side by side, and launch Claude Code or Codex in one click. Free for Windows 11.">
+<meta property="og:description" content="Run multiple terminals side by side on Windows or Linux, keep sessions organised by project, and launch Claude Code or Codex in one click.">
 <meta property="og:image" content="assets/screenshot.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="NS Deck - Multiple terminals in one window">
-<meta name="twitter:description" content="Run PowerShell, CMD, WSL and Git Bash side by side, and launch Claude Code or Codex in one click.">
+<meta name="twitter:description" content="Run multiple terminals side by side on Windows or Linux, keep sessions organised by project, and launch Claude Code or Codex in one click.">
 <meta name="twitter:image" content="assets/screenshot.png">
 
 <link rel="icon" href="assets/icon.png">
@@ -46,17 +46,18 @@
       <div class="hero-art">
         <img src="assets/icon.png" alt="NS Deck icon" width="104" height="104">
       </div>
-      <p class="pill">Free - Windows 11 - No account needed</p>
+      <p class="pill">Free - Windows and Linux - No account needed</p>
       <h1>Multiple terminals.<br><span class="grad">One window.</span></h1>
       <p class="lede">
-        NS Deck puts several live terminals side by side on Windows 11, keeps every session
+        NS Deck puts several live terminals side by side on Windows and Linux, keeps every session
         in the right project folder, and launches <b>Claude Code</b> or <b>Codex</b> with a single click.
       </p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="#download">Download for Windows</a>
+        <a class="btn btn-ghost" href="#download-linux">Get the Linux AppImage</a>
         <a class="btn btn-ghost" href="https://github.com/narawitsuraphan/ns-ai">View on GitHub</a>
       </div>
-      <p class="hero-meta">v1.0.2 - Windows 10 21H2 or newer also works</p>
+      <p class="hero-meta">v1.0.3 - Windows 10 21H2+ and Linux x64</p>
 
       <figure class="shot">
         <img src="assets/screenshot.png" alt="NS Deck running four Claude Code sessions in a 2x2 grid" width="1600" height="900">
@@ -69,7 +70,7 @@
       <div><b>5</b><span>grid layouts</span></div>
       <div><b>5</b><span>shells supported</span></div>
       <div><b>2</b><span>agents one-click</span></div>
-      <div><b>0</b><span>data sent anywhere</span></div>
+      <div><b>0</b><span>project data uploaded</span></div>
     </div>
   </section>
 
@@ -98,7 +99,7 @@
         <article class="card">
           <div class="ico i-cyan">⌘</div>
           <h3>Every shell you use</h3>
-          <p>PowerShell, PowerShell 7, Command Prompt, WSL and Git Bash run together. Shells you have not installed are clearly marked, so nothing is a surprise.</p>
+          <p>Use PowerShell, Command Prompt, WSL and Git Bash on Windows, or Bash, Zsh, Fish and PowerShell 7 on Linux. Unavailable shells are clearly marked.</p>
         </article>
 
         <article class="card">
@@ -144,10 +145,10 @@
   <section class="split">
     <div class="wrap split-in">
       <div>
-        <h2 class="sec-h">Made to sit on a Windows 11 desktop</h2>
+        <h2 class="sec-h">A workspace for your desktop</h2>
         <p class="sec-p">A single-window workspace instead of a pile of windows.</p>
         <ul class="ticks">
-          <li>Terminals run on ConPTY for full interactive programs, with an automatic fallback if it is unavailable.</li>
+          <li>Native interactive terminals use ConPTY on Windows and POSIX PTYs on Linux, with a fallback if unavailable.</li>
           <li>Five pages: Terminals, Projects, Dashboard, Settings and Developer.</li>
           <li>Keyboard shortcuts for new terminal, close, layout, project picker and paste.</li>
           <li>Clipboard access goes through a locked-down bridge rather than direct system access.</li>
@@ -162,24 +163,38 @@
   <section id="download" class="dl">
     <div class="wrap dl-in">
       <h2 class="sec-h">Download NS Deck</h2>
-      <p class="sec-p">Free. No account, no sign-in, nothing sent anywhere.</p>
+      <p class="sec-p">Free. No account or sign-in needed. Your project data stays local.</p>
 
-      <a class="btn btn-primary btn-lg" href="https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-Deck-Setup-1.0.2.exe">
-        Download the installer
-      </a>
-      <p class="dl-name">NS-Deck-Setup-1.0.2.exe - about 86 MB</p>
-
-      <div class="note">
-        <b>Windows may show a warning.</b>
-        The installer is not digitally signed yet, so SmartScreen can appear.
-        Click <b>More info</b>, then <b>Run anyway</b>. The application is not harmful.
+      <div class="download-option" id="download-windows">
+        <h3>Windows</h3>
+        <a class="btn btn-primary btn-lg" href="https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-Deck-Setup-1.0.3.exe">
+          Download for Windows
+        </a>
+        <p class="dl-name">NS-Deck-Setup-1.0.3.exe</p>
+        <div class="note">
+          <b>Windows may show a warning.</b>
+          The installer is not digitally signed yet, so SmartScreen can appear.
+          Click <b>More info</b>, then <b>Run anyway</b>.
+        </div>
+        <ol class="steps">
+          <li>Download the installer and wait for it to finish.</li>
+          <li>Double-click it. If SmartScreen appears, choose <b>More info</b> then <b>Run anyway</b>.</li>
+          <li>Launch NS Deck from the Desktop or Start Menu shortcut.</li>
+        </ol>
       </div>
 
-      <ol class="steps">
-        <li>Download the installer and wait for it to finish.</li>
-        <li>Double-click it. If SmartScreen appears, choose <b>More info</b> then <b>Run anyway</b>.</li>
-        <li>Launch NS Deck from the Desktop or Start Menu shortcut.</li>
-      </ol>
+      <div class="download-option" id="download-linux">
+        <h3>Linux x64</h3>
+        <a class="btn btn-primary btn-lg" href="https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-Deck-1.0.3.AppImage">
+          Download the AppImage
+        </a>
+        <p class="dl-name">NS-Deck-1.0.3.AppImage - Linux x64</p>
+        <ol class="steps">
+          <li>Download the AppImage and make it executable in your file manager, or run <code>chmod +x NS-Deck-1.0.3.AppImage</code>.</li>
+          <li>Launch it by double-clicking, or run <code>./NS-Deck-1.0.3.AppImage</code> from a terminal.</li>
+          <li>If your system reports missing FUSE support, install its FUSE 2 compatibility package.</li>
+        </ol>
+      </div>
 
       <p class="dl-alt">
         Prefer to browse the files?
@@ -195,12 +210,17 @@
 
       <details>
         <summary>Will I lose my data when I update?</summary>
-        <p>No. Your projects, theme and layout live in your Windows user profile, separate from the folder the app is installed in, so they survive updates. If you installed an earlier version under its previous name, those settings are carried over automatically the first time you open this one.</p>
+        <p>No. Your projects, theme and layout live in your per-user application data folder, separate from the app installation, so they survive updates on Windows and Linux.</p>
       </details>
 
       <details>
         <summary>Why does Windows warn me during installation?</summary>
         <p>The installer does not have a paid digital certificate yet. That is not a sign the app is harmful. Choose <b>More info</b>, then <b>Run anyway</b>.</p>
+      </details>
+
+      <details>
+        <summary>How do I run the Linux download?</summary>
+        <p>Download the x64 AppImage, mark it executable, and launch it. If your distribution does not include FUSE 2 compatibility, install the matching package from its repositories.</p>
       </details>
 
       <details>
@@ -234,7 +254,7 @@
       <img src="assets/icon.png" alt="" width="26" height="26">
       <span>NS Deck</span>
     </div>
-    <p>Built for developers on Windows.</p>
+    <p>Built for developers on Windows and Linux.</p>
     <p class="foot-links">
       <a href="https://github.com/narawitsuraphan/ns-ai">Repository</a>
       <a href="https://github.com/narawitsuraphan/ns-ai/releases">Releases</a>
