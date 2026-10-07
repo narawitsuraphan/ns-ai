@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NS Deck - Multiple terminals in one window for Windows and Linux</title>
-<meta name="description" content="NS Deck puts several live terminals in one window on Windows and Linux, keeps them organised by project folder, and launches Claude Code or Codex in one click. Free download.">
+<title>NS Deck - Code editor, terminals and AI agents for Windows and Linux</title>
+<meta name="description" content="NS Deck combines a project code editor, live terminals and a configurable AI coding agent in one Windows and Linux workspace. Free download.">
 <meta name="theme-color" content="#0b0f16">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="NS Deck - Multiple terminals in one window">
-<meta property="og:description" content="Run multiple terminals side by side on Windows or Linux, keep sessions organised by project, and launch Claude Code or Codex in one click.">
+<meta property="og:title" content="NS Deck - Code editor, terminals and AI agents">
+<meta property="og:description" content="Edit project files, organise live terminals and use a configurable AI coding agent on Windows or Linux.">
 <meta property="og:image" content="assets/screenshot.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="NS Deck - Multiple terminals in one window">
-<meta name="twitter:description" content="Run multiple terminals side by side on Windows or Linux, keep sessions organised by project, and launch Claude Code or Codex in one click.">
+<meta name="twitter:title" content="NS Deck - Code editor, terminals and AI agents">
+<meta name="twitter:description" content="Edit project files, organise live terminals and use a configurable AI coding agent on Windows or Linux.">
 <meta name="twitter:image" content="assets/screenshot.png">
 
 <link rel="icon" href="assets/icon.png">
@@ -47,17 +47,17 @@
         <img src="assets/icon.png" alt="NS Deck icon" width="104" height="104">
       </div>
       <p class="pill">Free - Windows and Linux - No account needed</p>
-      <h1>Multiple terminals.<br><span class="grad">One window.</span></h1>
+      <h1>Code, terminals.<br><span class="grad">One workspace.</span></h1>
       <p class="lede">
-        NS Deck puts several live terminals side by side on Windows and Linux, keeps every session
-        in the right project folder, and launches <b>Claude Code</b> or <b>Codex</b> with a single click.
+        NS Deck brings a project code editor, live terminals and a configurable AI coding agent together
+        on Windows and Linux. Organise work by folder, launch <b>Claude Code</b> or <b>Codex</b>, and edit files in the built-in IDE.
       </p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="#download">Download for Windows</a>
         <a class="btn btn-ghost" href="#download-linux">Get the Linux AppImage</a>
         <a class="btn btn-ghost" href="https://github.com/narawitsuraphan/ns-ai">View on GitHub</a>
       </div>
-      <p class="hero-meta">v1.0.3 - Windows 10 21H2+ and Linux x64</p>
+      <p class="hero-meta">v1.0.4 - Windows 10 21H2+ and Linux x64</p>
 
       <figure class="shot">
         <img src="assets/screenshot.png" alt="NS Deck running four Claude Code sessions in a 2x2 grid" width="1600" height="900">
@@ -70,7 +70,7 @@
       <div><b>5</b><span>grid layouts</span></div>
       <div><b>5</b><span>shells supported</span></div>
       <div><b>2</b><span>agents one-click</span></div>
-      <div><b>0</b><span>project data uploaded</span></div>
+      <div><b>3</b><span>AI provider options</span></div>
     </div>
   </section>
 
@@ -86,8 +86,8 @@
 
   <section id="features" class="sec">
     <div class="wrap">
-      <h2 class="sec-h">Everything a terminal-heavy day needs</h2>
-      <p class="sec-p">Built for people who keep four terminals open and lose track of which one is in which folder.</p>
+      <h2 class="sec-h">Code, terminals and agents in one place</h2>
+      <p class="sec-p">Edit project files, keep shells in the right folders, and choose how your coding agent connects.</p>
       <div class="grid">
 
         <article class="card">
@@ -106,6 +106,18 @@
           <div class="ico i-blue">▤</div>
           <h3>Project folders</h3>
           <p>Pick a project folder and every new terminal opens in it. Work with one project or many at once, and filter the view by project whenever you need to.</p>
+        </article>
+
+        <article class="card">
+          <div class="ico i-violet">⌘</div>
+          <h3>A code editor for your project</h3>
+          <p>Browse files, create folders, open multiple tabs, search and replace across the project, review Git changes, and use diagnostics where a language service is available. Files without a Monaco language mode remain editable as plain text.</p>
+        </article>
+
+        <article class="card">
+          <div class="ico i-cyan">✦</div>
+          <h3>Choose your AI coding agent</h3>
+          <p>Connect OpenRouter, Ollama or a custom OpenAI-compatible endpoint and choose a model. Manage Skills, review proposed file changes, and approve writes or commands before they run.</p>
         </article>
 
         <article class="card">
@@ -129,7 +141,7 @@
         <article class="card">
           <div class="ico i-violet">◑</div>
           <h3>Dark by default</h3>
-          <p>A calm dark theme that is easy on the eyes, with a light theme for bright rooms. Icons and libraries ship inside the app, so it works with no internet at all.</p>
+          <p>A calm dark theme that is easy on the eyes, with a light theme for bright rooms. The editor and its libraries work offline; remote AI services need a connection, while a local Ollama endpoint can run on your machine.</p>
         </article>
 
         <article class="card">
@@ -149,7 +161,9 @@
         <p class="sec-p">A single-window workspace instead of a pile of windows.</p>
         <ul class="ticks">
           <li>Native interactive terminals use ConPTY on Windows and POSIX PTYs on Linux, with a fallback if unavailable.</li>
-          <li>Five pages: Terminals, Projects, Dashboard, Settings and Developer.</li>
+          <li>Six pages: Terminals, Projects, IDE, Dashboard, Settings and Developer.</li>
+          <li>Run a file with a suggested command, then edit it for the runtime or compiler installed on your machine.</li>
+          <li>Manage reusable Skills for the AI coding agent at user or project scope.</li>
           <li>Keyboard shortcuts for new terminal, close, layout, project picker and paste.</li>
           <li>Clipboard access goes through a locked-down bridge rather than direct system access.</li>
         </ul>
@@ -163,14 +177,14 @@
   <section id="download" class="dl">
     <div class="wrap dl-in">
       <h2 class="sec-h">Download NS Deck</h2>
-      <p class="sec-p">Free. No account or sign-in needed. Your project data stays local.</p>
+      <p class="sec-p">Free. No account or sign-in needed to download. Existing projects and settings are preserved when updating.</p>
 
       <div class="download-option" id="download-windows">
         <h3>Windows</h3>
-        <a class="btn btn-primary btn-lg" href="https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-Deck-Setup-1.0.3.exe">
+        <a class="btn btn-primary btn-lg" href="https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-Deck-Setup-1.0.4.exe">
           Download for Windows
         </a>
-        <p class="dl-name">NS-Deck-Setup-1.0.3.exe</p>
+        <p class="dl-name">NS-Deck-Setup-1.0.4.exe</p>
         <div class="note">
           <b>Windows may show a warning.</b>
           The installer is not digitally signed yet, so SmartScreen can appear.
@@ -185,13 +199,13 @@
 
       <div class="download-option" id="download-linux">
         <h3>Linux x64</h3>
-        <a class="btn btn-primary btn-lg" href="https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-Deck-1.0.3.AppImage">
+        <a class="btn btn-primary btn-lg" href="https://github.com/narawitsuraphan/ns-ai/releases/latest/download/NS-Deck-1.0.4.AppImage">
           Download the AppImage
         </a>
-        <p class="dl-name">NS-Deck-1.0.3.AppImage - Linux x64</p>
+        <p class="dl-name">NS-Deck-1.0.4.AppImage - Linux x64</p>
         <ol class="steps">
-          <li>Download the AppImage and make it executable in your file manager, or run <code>chmod +x NS-Deck-1.0.3.AppImage</code>.</li>
-          <li>Launch it by double-clicking, or run <code>./NS-Deck-1.0.3.AppImage</code> from a terminal.</li>
+          <li>Download the AppImage and make it executable in your file manager, or run <code>chmod +x NS-Deck-1.0.4.AppImage</code>.</li>
+          <li>Launch it by double-clicking, or run <code>./NS-Deck-1.0.4.AppImage</code> from a terminal.</li>
           <li>If your system reports missing FUSE support, install its FUSE 2 compatibility package.</li>
         </ol>
       </div>
@@ -235,7 +249,7 @@
 
       <details>
         <summary>Does it send anything to the internet?</summary>
-        <p>No. The app runs entirely on your machine. It only reaches out to check for its own updates from this repository.</p>
+        <p>NS Deck checks GitHub for app updates. If you use the built-in AI coding agent, prompts and project context can be sent to the provider endpoint you configure. A local Ollama endpoint can keep that processing on your machine; your provider's data practices apply when you choose a hosted service.</p>
       </details>
 
       <details>
