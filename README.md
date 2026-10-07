@@ -109,7 +109,7 @@ This is already fixed in the app. It configures colour for its own terminals onl
 ## Privacy
 
 The application runs on your machine and contacts this repository to check for updates. If you use the built-in AI coding agent, prompts and project context can be sent to the provider endpoint you configure. A local Ollama endpoint can keep AI processing on your machine; hosted providers have their own data practices.
-This repository is used **only to distribute the application**. It contains no source code.
+This repository hosts the public download site and application releases. It does not contain the NS Deck application's source code.
 
 ---
 
